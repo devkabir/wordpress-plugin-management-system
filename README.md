@@ -12,7 +12,7 @@ This is a WordPress Plugin Management System built using the Laravel framework. 
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/your-username/wordpress-plugin-management-system.git
+   git clone https://github.com/devkabir/wordpress-plugin-management-system.git
    ```
 
 2. Navigate to the project directory:
