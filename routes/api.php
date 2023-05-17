@@ -55,7 +55,7 @@ Route::post('org/support', static function (\Illuminate\Http\Request $request) {
 
         return response('ok', 200);
     } catch (Exception $exception) {
-        Log::alert($request->all());
+        Log::alert(json_encode($request->all(), JSON_PRETTY_PRINT));
         Log::alert($exception->getMessage());
         Log::info($exception->getTrace()[0]);
 
