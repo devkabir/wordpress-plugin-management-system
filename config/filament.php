@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'path' => env('FILAMENT_PATH', 'admin'),
+    'path'                    => env('FILAMENT_PATH', ''),
 
     /*
     |--------------------------------------------------------------------------
@@ -37,7 +37,7 @@ return [
     |
     */
 
-    'core_path' => env('FILAMENT_CORE_PATH', 'filament'),
+    'core_path'               => env('FILAMENT_CORE_PATH', 'filament'),
 
     /*
     |--------------------------------------------------------------------------
@@ -49,7 +49,7 @@ return [
     |
     */
 
-    'domain' => env('FILAMENT_DOMAIN'),
+    'domain'                  => env('FILAMENT_DOMAIN'),
 
     /*
     |--------------------------------------------------------------------------
@@ -61,7 +61,7 @@ return [
     |
     */
 
-    'home_url' => '/',
+    'home_url'                => '/',
 
     /*
     |--------------------------------------------------------------------------
@@ -72,7 +72,7 @@ return [
     |
     */
 
-    'brand' => env('APP_NAME'),
+    'brand'                   => env('APP_NAME'),
 
     /*
     |--------------------------------------------------------------------------
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'auth' => [
+    'auth'                    => [
         'guard' => env('FILAMENT_AUTH_GUARD', 'web'),
         'pages' => [
             'login' => \Filament\Http\Livewire\Auth\Login::class,
@@ -101,10 +101,10 @@ return [
     |
     */
 
-    'pages' => [
+    'pages'                   => [
         'namespace' => 'App\\Http\\Pages',
-        'path' => app_path('Http/Pages'),
-        'register' => [
+        'path'      => app_path('Http/Pages'),
+        'register'  => [
         ],
     ],
 
@@ -118,10 +118,10 @@ return [
     |
     */
 
-    'resources' => [
+    'resources'               => [
         'namespace' => 'App\\Http\\Resources',
-        'path' => app_path('Http/Resources'),
-        'register' => [],
+        'path'      => app_path('Http/Resources'),
+        'register'  => [],
     ],
 
     /*
@@ -134,10 +134,10 @@ return [
     |
     */
 
-    'widgets' => [
+    'widgets'                 => [
         'namespace' => 'App\\Http\\Widgets',
-        'path' => app_path('Http/Widgets'),
-        'register' => [
+        'path'      => app_path('Http/Widgets'),
+        'register'  => [
             Widgets\AccountWidget::class,
         ],
     ],
@@ -152,9 +152,9 @@ return [
     |
     */
 
-    'livewire' => [
+    'livewire'                => [
         'namespace' => 'App\\Http',
-        'path' => app_path('Http'),
+        'path'      => app_path('Http'),
     ],
 
     /*
@@ -167,7 +167,7 @@ return [
     |
     */
 
-    'dark_mode' => true,
+    'dark_mode'               => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -179,8 +179,8 @@ return [
     |
     */
 
-    'database_notifications' => [
-        'enabled' => false,
+    'database_notifications'  => [
+        'enabled'          => false,
         'polling_interval' => '30s',
     ],
 
@@ -196,7 +196,7 @@ return [
     |
     */
 
-    'broadcasting' => [
+    'broadcasting'            => [
 
         // 'echo' => [
         //     'broadcaster' => 'pusher',
@@ -219,36 +219,36 @@ return [
     |
     */
 
-    'layout' => [
-        'actions' => [
+    'layout'                  => [
+        'actions'           => [
             'modal' => [
                 'actions' => [
                     'alignment' => 'left',
                 ],
             ],
         ],
-        'forms' => [
-            'actions' => [
-                'alignment' => 'left',
+        'forms'             => [
+            'actions'            => [
+                'alignment'  => 'left',
                 'are_sticky' => false,
             ],
             'have_inline_labels' => false,
         ],
-        'footer' => [
+        'footer'            => [
             'should_show_logo' => false,
         ],
         'max_content_width' => null,
-        'notifications' => [
+        'notifications'     => [
             'vertical_alignment' => 'top',
-            'alignment' => 'right',
+            'alignment'          => 'right',
         ],
-        'sidebar' => [
+        'sidebar'           => [
             'is_collapsible_on_desktop' => true,
-            'groups' => [
+            'groups'                    => [
                 'are_collapsible' => true,
             ],
-            'width' => null,
-            'collapsed_width' => null,
+            'width'                     => null,
+            'collapsed_width'           => null,
         ],
     ],
 
@@ -261,7 +261,7 @@ return [
     |
     */
 
-    'favicon' => null,
+    'favicon'                 => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -300,7 +300,7 @@ return [
     |
     */
 
-    'google_fonts' => 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap',
+    'google_fonts'            => 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap',
 
     /*
     |--------------------------------------------------------------------------
@@ -312,7 +312,7 @@ return [
     |
     */
 
-    'middleware' => [
+    'middleware'              => [
         'auth' => [
             Authenticate::class,
         ],
