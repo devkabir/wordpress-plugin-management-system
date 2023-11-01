@@ -56,6 +56,21 @@ This is a WordPress Plugin Management System built using the Laravel framework. 
 - Handle user support tickets and respond to user inquiries.
 - Monitor plugin statistics and ratings to gain insights into plugin performance.
 
+
+## How it looks
+
+- Dashboard
+![](/dashboard.png)
+- Plugin users with status 
+![](/plugin-users.png)
+- Plugin user details
+![](/plugn-user-details.png)
+- Light mood 
+![](/light-mood.png)
+
+## How to extend
+This is a basic concept, if you need professional version, let me [know](mailto:dev.kabir01@gmail.com)
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
