@@ -59,13 +59,13 @@ This is a WordPress Plugin Management System built using the Laravel framework. 
 
 ## How it looks
 
-- Dashboard
+### Dashboard
 ![](/dashboard.png)
-- Plugin users with status 
+### Plugin users with status 
 ![](/plugin-users.png)
-- Plugin user details
+### Plugin user details
 ![](/plugn-user-details.png)
-- Light mood 
+### Light mood 
 ![](/light-mood.png)
 
 ## How to extend
